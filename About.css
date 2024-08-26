@@ -1,0 +1,105 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+ 
+ }
+ .box{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 16px;
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 14px;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+ }
+ .box:hover{
+    color: rgb(2, 2, 2);
+    text-decoration:overline;
+    transform: scale(110%);
+ }
+ img{
+    width: 140px;
+    height: 80px;
+    margin: 4px;
+ }
+ 
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container1 {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #4c53af;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+    text-align: center; /* Centering all content within sections */
+}
+
+section h2 {
+    font-size: 28px;
+    color: #4c7aaf;
+    margin-bottom: 10px;
+    text-align: center; /* Ensuring h2 is centered */
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #4c74af;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

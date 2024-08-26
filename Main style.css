@@ -1,0 +1,118 @@
+.container{
+   display: flex;
+   justify-content: space-around;
+
+}
+.box{
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   text-decoration: none;
+   position: relative;
+   top: 16px;
+   border: 1px rgb(255, 255, 255) solid;
+   padding: 14px;
+   border-radius: 15px;
+   position: relative;
+   top: 30px;
+   font-size: 25px;
+}
+.box:hover{
+   color: rgb(2, 2, 2);
+   text-decoration:overline;
+   transform: scale(110%);
+
+}
+hr{
+   position: relative;
+   bottom: 0px;
+}
+.sidebar{
+   display: flex;
+   flex-direction: column;
+   column-gap: 90px;
+}
+body{
+   border-top: 3px rgb(79, 40, 255) solid;
+   border-left: 3px rgb(79, 40, 255) solid;;
+   margin: 0;
+}
+img{
+   width: 140px;
+   height: 80px;
+   margin: 4px;
+}
+h1{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+   color: white;
+}
+p{
+   text-align: center;
+   font-size: 20px;
+   padding-left: 200px;
+   padding-right: 200px;
+   color: rgb(0, 0, 0);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.services {
+   padding: 50px 0;
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.service-item {
+   margin-bottom: 30px;
+}
+
+.service-item h3 {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+}
+
+.service-item p {
+   font-size: 1rem;
+}
+.h2{
+
+}
+header {
+   background: #4c53af;
+   color: white;
+   padding: 60px 0;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+header p {
+   font-size: 18px;
+   color: white;
+}
+footer {
+   background: #333;
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+   margin-top: 40px;
+}
+
+footer p {
+   margin: 5px 0;
+}
+
+footer a {
+   color: #4c74af;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+h3,h2{
+   color: #4c7aaf ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
